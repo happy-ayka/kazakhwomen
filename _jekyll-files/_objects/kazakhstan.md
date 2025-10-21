@@ -7,7 +7,7 @@ medium: "medium"
 dimensions: "dimensions"
 location: "location"
 credit: "credit"
-thumbnail: thumbnail
+thumbnail: 
 iiif_manifest: https://share.google/images/V12djOk9Y1BxauNcn
 layout: object
 ---
