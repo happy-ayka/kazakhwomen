@@ -2,8 +2,8 @@
 # https://github.com/UCSB-AMPLab/telar
 
 # Site Settings
-title: women's equality
-description: "this is about discourse on women's equality and education."
+title: Telar
+description: "static site"
 baseurl: "/kazakhwomen"
 url: "https://happy-ayka.github.io"
 author: "aigerim"
