@@ -63,5 +63,18 @@
     "credit": "John Carter Brown Library, Brown University, Providence, R.I.",
     "thumbnail": "",
     "iiif_manifest": "https://jcb.lunaimaging.com/luna/servlet/iiif/m/JCB~1~1~278~100020/manifest"
+  },
+  {
+    "object_id": "nazipa",
+    "title": "title",
+    "description": "description",
+    "creator": "creator",
+    "period": "period",
+    "medium": "medium",
+    "dimensions": "dimensions",
+    "location": "location",
+    "credit": "credit",
+    "thumbnail": "thumbnail",
+    "iiif_manifest": ""
   }
 ]
