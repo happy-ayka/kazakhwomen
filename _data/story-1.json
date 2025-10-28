@@ -30,6 +30,21 @@
     "layer2_text": ""
   },
   {
+    "step": 3,
+    "question": "What is the soviet emancipation project in the Kazakh steppe ",
+    "answer": "Soviet officials initiated the Red Yurt campaign and sent mobile Red Yurts to the kazakh villages.",
+    "object": "redyurt2",
+    "x": "0.519",
+    "y": "0.499",
+    "zoom": "1.4",
+    "layer1_button": "",
+    "layer2_button": "",
+    "layer1_title": "",
+    "layer1_text": "<p>Campaign's origins and implementation in kazakh villages. Its functions such as improving literacy, spreading knowledge of women's rights, providing medical care, and teaching handicraft skills like sewing.</p>",
+    "layer2_title": "The first Kazakh Language Periodic about Women's Lives, Aiel Tengdygy Journal",
+    "layer2_text": "<p>This content included information about resistance to \"old\" marriage customs (bride price, polygamy, underage marriage) and coverage of the red yurt campaign. While serving as propaganda, the periodical provided a platform for kazakh women's voices.</p>"
+  },
+  {
     "step": 4,
     "question": "What kind of role female editors played in the journal?",
     "answer": "female editors acted as intermediate between propaganda and reality.",
