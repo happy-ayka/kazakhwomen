@@ -1,5 +1,5 @@
 ---
-title: red yurt campaign
+Title: What is the Soviet Emancipation Project in the Kazakh Steppes?
 ---
 
-The red yurt provided nomadic kazakh women with reading and health care.
+Soviet officials initiated the Red Yurt campaign and sent mobile Red Yurts to the kazakh villages.
