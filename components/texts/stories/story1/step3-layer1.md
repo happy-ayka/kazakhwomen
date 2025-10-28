@@ -1,5 +1,5 @@
 ---
-Title: What is the Soviet Emancipation Project in the Kazakh Steppes?
+Title: Red Yurt Campaign
 ---
 
-Soviet officials initiated the Red Yurt campaign and sent mobile Red Yurts to the kazakh villages.
+Campaign's origins and implementation in kazakh villages. Its functions such as improving literacy, spreading knowledge of women's rights, providing medical care, and teaching handicraft skills like sewing. 
