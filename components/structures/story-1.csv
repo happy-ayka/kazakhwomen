@@ -1,7 +1,7 @@
 step,question,answer,object,x,y,zoom,layer1_button,layer1_file,layer2_button,layer2_file
 1,"How did Kazakh intellectuals in the early 20th century address women's questions?","Alash movement rose discourse on women's equality and education.","newspaper1",0.485,0.506,0.9,"","story1/step1-layer1.md","","story1/step1-layer2.md"
 2,"Who had the rare but significant female voice in the early 20th-century kazakh steppe?","Kazakh female intellectual Nazipa Kulzhan Kelyny. She was the only female in the 1910s to write for Qazaq, the newspaper of the Alash movement. She advocated for women's education and equality. She also criticized kazakh marriage customs like early marriage, bride price, and polygamy, etc.","nazipa",0.519,0.563,1.9,"","","",""
-3,"What is the soviet emancipation project in the Kazakh steppe ","Soviet officials initiated the Red Yurt campaign and sent mobile Red Yurts to the kazakh villages.","redyurt2",0.519,0.499,1.4,"","story1/step3-layer1.md","","story1/step3-layer2.md"
+3,"What is the soviet emancipation project in the Kazakh steppe ","Soviet officials initiated the Red Yurt campaign and sent mobile Red Yurts to the kazakh villages.","redyurt2","redyurt",0.519,0.499,1.4,"","story1/step3-layer1.md","","story1/step3-layer2.md"
 4,"What kind of role female editors played in the journal?","female editors acted as intermediate between propaganda and reality.","sara",0.521,0.483,1.1,"","story1/step4-layer1.md","",""
 
 
