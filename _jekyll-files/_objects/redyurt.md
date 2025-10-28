@@ -1,6 +1,6 @@
 ---
-object_id: kzwomen-1
-title: "kazakh women in 19th century"
+object_id: redyurt
+title: "red yurt campaign"
 creator: "creator"
 period: "period"
 medium: "medium"
@@ -12,4 +12,4 @@ iiif_manifest:
 layout: object
 ---
 
-description
+nazipa is one of female intellectual in early 20th centruy and she wrote the health related book named mother and child

@@ -7,8 +7,8 @@ medium: "medium"
 dimensions: "dimensions"
 location: "location"
 credit: "credit"
-thumbnail: thumbnail
-iiif_manifest: iiif_manifest
+thumbnail: 
+iiif_manifest: 
 layout: object
 ---
 

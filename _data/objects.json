@@ -100,8 +100,8 @@
     "dimensions": "dimensions",
     "location": "location",
     "credit": "credit",
-    "thumbnail": "thumbnail",
-    "iiif_manifest": "iiif_manifest"
+    "thumbnail": "",
+    "iiif_manifest": ""
   },
   {
     "object_id": "newspaper1",
@@ -113,7 +113,20 @@
     "dimensions": "dimensions",
     "location": "location",
     "credit": "credit",
-    "thumbnail": "thumbnail",
-    "iiif_manifest": "iiif_manifest"
+    "thumbnail": "",
+    "iiif_manifest": ""
+  },
+  {
+    "object_id": "redyurt",
+    "title": "red yurt campaign",
+    "description": "nazipa is one of female intellectual in early 20th centruy and she wrote the health related book named mother and child",
+    "creator": "creator",
+    "period": "period",
+    "medium": "medium",
+    "dimensions": "dimensions",
+    "location": "location",
+    "credit": "credit",
+    "thumbnail": "",
+    "iiif_manifest": ""
   }
 ]
