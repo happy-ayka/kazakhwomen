@@ -1,6 +1,6 @@
 ---
 object_id: newspaper1
-title: "Newspaper of the Alash movement named Qazaq"
+title: "newspaper of the Alash movement named Qazaq"
 creator: "creator"
 period: "period"
 medium: "medium"
