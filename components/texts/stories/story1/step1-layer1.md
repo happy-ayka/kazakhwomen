@@ -1,5 +1,5 @@
 ---
-title: Legal Evidence in Colonial Courts
+title: Kazakh Female Intellectual Nazipa Kulzhan Kelyny 
 ---
 
-Imperial officers were ordered to explore and document the territory to determine ownership. This legal painting served as evidence in colonial courts.
+She was the only female in the 1910s associated with Qazaq, the newspaper of the Alash movement. She advocated for women's education and equality. She also criticized kazakh marriage customs like early marriage, brideprice, and polygamy etc.
