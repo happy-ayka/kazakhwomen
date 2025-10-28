@@ -1,5 +1,5 @@
 ---
-title: Francisco Maldonado y Mendoza
+title: Kazakh Women in the 19th century 
 ---
 
-Born in Spain in 1551, Francisco Maldonado y Mendoza moved to Santa Fe de Bogotá in 1583. After marrying Jerónima de Orrego in 1586, he began purchasing estates in the Bogotá savannah. By the mid-1590s, he became encomendero of the Bogotá Indigenous community and owned one of the most prosperous cattle ranches in the New Kingdom of Granada.
+Kazakh women are pulling wool and working together to make wool blankets. They use these to produce portable felt yurts, an essential part of nomadic life on the steppe. This is also a traditional handicraft of Kazakh women.
