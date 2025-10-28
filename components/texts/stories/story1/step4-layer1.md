@@ -1,5 +1,5 @@
 ---
-title: The Marquisate of San Jorge
+title: Nazipa's Article About Health
 ---
 
-The territory was transformed into a 'mayorazgo' (entailed estate) that would be passed down to the eldest child, consolidating Spanish landownership.
+She wrote a series of articles in the journal about mothers and children's health.
