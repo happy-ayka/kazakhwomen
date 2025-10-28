@@ -1,5 +1,7 @@
 step,question,answer,object,x,y,zoom,layer1_button,layer1_file,layer2_button,layer2_file
 1,"What is the first newspaper of the movement?","This is a newspaper named Qazaq.","newspaper1",0.485,0.506,0.9,"","story1/step1-layer1.md","","story1/step1-layer2.md"
 2,"Who is this woman?","She is nazipa.","nazipa",0.519,0.563,1.9,"","","",""
-3,"What is soviet emancipation project in kazakh steppe ","This is red yurt campaign.","redyurt",0.500,0.500,1.0,"","story1/step3-layer1.md","","story1/step3-layer2.md"
+3,"What is soviet emancipation project in Kazakh steppe ","Soviet officials initiated the Red Yurt campaign and sent mobile Red Yurts to the kazakh villages.","redyurt",0.500,0.500,1.0,"","story1/step3-layer1.md","","story1/step3-layer2.md"
 4,"What are they doing?","Kazkah women are doing traditional work.","kzwomen-1",0.578,0.562,2.5,"","story1/step4-layer1.md","",""
+
+
