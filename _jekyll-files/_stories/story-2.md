@@ -1,6 +1,6 @@
 ---
 story_number: 2
-title: "Showcase of Telar features"
+title: "Nazipa's work"
 layout: story
 data_file: story-2
 ---
