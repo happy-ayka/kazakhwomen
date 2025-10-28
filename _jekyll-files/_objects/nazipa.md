@@ -1,6 +1,6 @@
 ---
 object_id: nazipa
-title: "title"
+title: "nazipa kulzhan kelyny"
 creator: "creator"
 period: "period"
 medium: "medium"
@@ -12,4 +12,4 @@ iiif_manifest:
 layout: object
 ---
 
-description
+nazipa is one of female intellectual in early 20th centruy and she wrote the health related book named mother and child

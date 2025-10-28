@@ -66,8 +66,8 @@
   },
   {
     "object_id": "nazipa",
-    "title": "title",
-    "description": "description",
+    "title": "nazipa kulzhan kelyny",
+    "description": "nazipa is one of female intellectual in early 20th centruy and she wrote the health related book named mother and child",
     "creator": "creator",
     "period": "period",
     "medium": "medium",
@@ -89,5 +89,18 @@
     "credit": "credit",
     "thumbnail": "",
     "iiif_manifest": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~360546~90127697/manifest"
+  },
+  {
+    "object_id": "kzwomen1",
+    "title": "kazakh women in 19th century",
+    "description": "description",
+    "creator": "creator",
+    "period": "period",
+    "medium": "medium",
+    "dimensions": "dimensions",
+    "location": "location",
+    "credit": "credit",
+    "thumbnail": "thumbnail",
+    "iiif_manifest": "iiif_manifest"
   }
 ]
