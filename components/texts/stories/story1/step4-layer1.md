@@ -1,5 +1,5 @@
 ---
-title: Nazipa's Article About Health
+title: Sara Esenqozhaqyzy, Chief Editor of Aiel Tengdygy Journal
 ---
 
-She wrote a series of articles in the journal about mothers and children's health.
+Her works balanced women's everyday concerns with the demands of soviet propaganda, especially around political issues and marriage customs.
