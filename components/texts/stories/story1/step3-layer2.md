@@ -1,5 +1,5 @@
 ---
-title: Maps Across Cultures
+title: Aiel Tengdygy Journal
 ---
 
-Different societies create maps through various mediums. For example, the Kogi people use looms as geographical representations. Maps can be visual, oral, mental, or embodied in cultural artifacts—challenging European assumptions about cartographic representation.
+This journal is a platform.
