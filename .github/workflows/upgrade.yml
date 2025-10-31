@@ -10,7 +10,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  issues: write
 
 jobs:
   upgrade:
@@ -28,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml pandas
 
       - name: Fetch latest upgrade scripts
         run: |
@@ -79,17 +79,95 @@ jobs:
               yaml.dump(config, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
           EOF
 
-      - name: Create Pull Request
-        if: inputs.create_pr && steps.upgrade.outputs.version != ''
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: "Upgrade Telar from ${{ steps.check_version.outputs.current_version }} to ${{ steps.upgrade.outputs.version }}"
-          title: "Upgrade Telar to ${{ steps.upgrade.outputs.version }}"
-          body-path: UPGRADE_SUMMARY.md
-          branch: upgrade-telar-${{ steps.upgrade.outputs.version }}
-          delete-branch: true
-          labels: upgrade, automated
-          author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+      - name: Create upgrade branch
+        if: steps.upgrade.outputs.version != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          BRANCH_NAME="upgrade-telar-${{ steps.upgrade.outputs.version }}"
+          git checkout -b "$BRANCH_NAME"
+          git add .
+          git commit -m "Upgrade Telar from ${{ steps.check_version.outputs.current_version }} to ${{ steps.upgrade.outputs.version }}"
+          git push origin "$BRANCH_NAME"
+
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+        id: create_branch
+
+      - name: Create upgrade issue
+        if: steps.upgrade.outputs.version != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Read the upgrade summary
+          SUMMARY=$(cat UPGRADE_SUMMARY.md)
+
+          # Get repository info
+          REPO="${{ github.repository }}"
+          BRANCH="${{ steps.create_branch.outputs.branch_name }}"
+          VERSION="${{ steps.upgrade.outputs.version }}"
+          FROM_VERSION="${{ steps.check_version.outputs.current_version }}"
+
+          # Create issue body with instructions
+          cat > issue_body.md << 'EOF'
+          ## 🎉 Telar Upgrade Ready
+
+          Your Telar site has been successfully upgraded from **$FROM_VERSION** to **$VERSION**.
+
+          ### 📋 Upgrade Summary
+
+          $SUMMARY
+
+          ### 🔍 Review Changes
+
+          View all changes in the upgrade branch:
+          - **[Compare view]($COMPARE_URL)** - See exactly what changed
+          - **Branch:** `$BRANCH`
+
+          ### ✅ How to Apply This Upgrade
+
+          Choose one of the following methods:
+
+          #### Option 1: Create Pull Request (Recommended)
+          1. Go to the [compare view]($COMPARE_URL)
+          2. Click the green **"Create pull request"** button
+          3. Review the changes one more time
+          4. Click **"Merge pull request"** to apply the upgrade
+
+          #### Option 2: Merge via Command Line
+          ```bash
+          git fetch origin
+          git checkout main
+          git merge origin/$BRANCH
+          git push origin main
+          ```
+
+          #### Option 3: Merge on GitHub
+          1. Go to your repository's **Branches** page
+          2. Find the `$BRANCH` branch
+          3. Click **"New pull request"** or use the merge button
+
+          ### 📝 Manual Steps
+
+          After merging, please check the upgrade summary above for any manual steps you may need to complete.
+
+          ---
+
+          This upgrade was performed automatically by the Telar upgrade workflow.
+          EOF
+
+          # Replace placeholders
+          sed -i "s|\$FROM_VERSION|$FROM_VERSION|g" issue_body.md
+          sed -i "s|\$VERSION|$VERSION|g" issue_body.md
+          sed -i "s|\$BRANCH|$BRANCH|g" issue_body.md
+          sed -i "s|\$COMPARE_URL|https://github.com/$REPO/compare/main...$BRANCH|g" issue_body.md
+          sed -i "s|\$SUMMARY|$SUMMARY|g" issue_body.md
+
+          # Create the issue
+          gh issue create \
+            --title "Upgrade Telar to $VERSION" \
+            --body-file issue_body.md \
+            --label "upgrade"
 
       - name: Output summary
         if: steps.upgrade.outputs.version != ''
@@ -98,6 +176,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- **From:** ${{ steps.check_version.outputs.current_version }}" >> $GITHUB_STEP_SUMMARY
           echo "- **To:** ${{ steps.upgrade.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch:** \`${{ steps.create_branch.outputs.branch_name }}\`" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "A pull request has been created with all changes." >> $GITHUB_STEP_SUMMARY
-          echo "Please review \`UPGRADE_SUMMARY.md\` in the PR for any manual steps." >> $GITHUB_STEP_SUMMARY
+          echo "An issue has been created with upgrade details and merge instructions." >> $GITHUB_STEP_SUMMARY
+          echo "Check the **Issues** tab to review and apply the upgrade." >> $GITHUB_STEP_SUMMARY
