@@ -33,3 +33,8 @@ Thumbs.db
 # TODO: Remove this when testing GitHub Actions workflow
 # Tiles should be tracked in production for optimization
 iiif/objects/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
