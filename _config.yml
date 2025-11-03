@@ -9,9 +9,9 @@ telar_theme: paisajes
 logo: ''
 telar_language: en
 google_sheets:
-  enabled: false
-  shared_url: ''
-  published_url: ''
+  enabled: true
+  shared_url: 'https://docs.google.com/spreadsheets/d/1hAXJargfR6-2oIetuUs_KMQqMUcsLJk04YDMAL_pB-0/edit?usp=sharing'
+  published_url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRoVRYTpkvGLmBPT_QJEC-aBqiGfZSnplaqpXWbgDCPMepWaAbixnd6PpY5HtLmNIT5zUlBD9HEQQhw/pubhtml'
 markdown: kramdown
 permalink: pretty
 exclude:
