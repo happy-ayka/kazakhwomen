@@ -7,6 +7,9 @@ objects_heading: "What is this heading for? "
 objects_intro: "Browse {count} objects featured in the stories."
 ---
 
+{% include upgrade-alert.html %}
+
+
 
 
 ## Welcome to the literature and sounds of 

@@ -10,7 +10,9 @@
     "location": "Huntington Library",
     "credit": "Huntington Digital Library",
     "thumbnail": "",
-    "iiif_manifest": "https://hdl.huntington.org/iiif/info/p15150coll4/3342/manifest.json"
+    "iiif_manifest": "https://hdl.huntington.org/iiif/info/p15150coll4/3342/manifest.json",
+    "object_warning": "",
+    "object_warning_short": NaN
   },
   {
     "object_id": "example-bogota-1614",
@@ -23,7 +25,9 @@
     "location": "Archivo General de Indias",
     "credit": "Archivo General de Indias, Seville",
     "thumbnail": "",
-    "iiif_manifest": ""
+    "iiif_manifest": "",
+    "object_warning": "No image source found for object 'example-bogota-1614'. Add either: (1) an IIIF manifest URL in the iiif_manifest column, or (2) an image file to components/images/objects/example-bogota-1614.jpg",
+    "object_warning_short": "Missing image source"
   },
   {
     "object_id": "example-muisca-goldwork",
@@ -36,7 +40,9 @@
     "location": "Museo del Oro",
     "credit": "Museo del Oro, Bogotá. Registration Number: O08319",
     "thumbnail": "",
-    "iiif_manifest": ""
+    "iiif_manifest": "",
+    "object_warning": "No image source found for object 'example-muisca-goldwork'. Add either: (1) an IIIF manifest URL in the iiif_manifest column, or (2) an image file to components/images/objects/example-muisca-goldwork.jpg",
+    "object_warning_short": "Missing image source"
   },
   {
     "object_id": "example-ceramic-figure",
@@ -49,7 +55,9 @@
     "location": "Museo del Oro",
     "credit": "Museo del Oro, Bogotá",
     "thumbnail": "",
-    "iiif_manifest": ""
+    "iiif_manifest": "",
+    "object_warning": "No image source found for object 'example-ceramic-figure'. Add either: (1) an IIIF manifest URL in the iiif_manifest column, or (2) an image file to components/images/objects/example-ceramic-figure.jpg",
+    "object_warning_short": "Missing image source"
   },
   {
     "object_id": "example-piedrahita-title_page",
@@ -62,188 +70,8 @@
     "location": "John Carter Brown Library",
     "credit": "John Carter Brown Library, Brown University, Providence, R.I.",
     "thumbnail": "",
-    "iiif_manifest": "https://jcb.lunaimaging.com/luna/servlet/iiif/m/JCB~1~1~278~100020/manifest"
-  },
-  {
-    "object_id": "nazipa",
-    "title": "nazipa kulzhan kelyny",
-    "description": "nazipa is one of female intellectual in early 20th centruy and she wrote the health related book named mother and child",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "kazakhstan",
-    "title": "map of kazakhstan",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": "https://www.davidrumsey.com/luna/servlet/iiif/m/RUMSEY~8~1~360546~90127697/manifest"
-  },
-  {
-    "object_id": "kzwomen-1",
-    "title": "kazakh women in 19th century",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "newspaper1",
-    "title": "newspaper of the Alash movement named Qazaq",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "redyurt",
-    "title": "red yurt campaign",
-    "description": "nazipa is one of female intellectual in early 20th centruy and she wrote the health related book named mother and child",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "journal1",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "journal2",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "journal3",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "journal4",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "journal5",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "redyurt1",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "redyurt2",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "redyurt3",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
-  },
-  {
-    "object_id": "sara",
-    "title": "title",
-    "description": "description",
-    "creator": "creator",
-    "period": "period",
-    "medium": "medium",
-    "dimensions": "dimensions",
-    "location": "location",
-    "credit": "credit",
-    "thumbnail": "",
-    "iiif_manifest": ""
+    "iiif_manifest": "https://jcb.lunaimaging.com/luna/servlet/iiif/m/JCB~1~1~278~100020/manifest",
+    "object_warning": "",
+    "object_warning_short": NaN
   }
 ]
