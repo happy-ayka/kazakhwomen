@@ -1,8 +1,8 @@
 ---
 layout: index
-title: kazakh women voice
-stories_heading: "this is about literature and sounds"
-stories_intro: "here i may write intro to the stories"
+title: Kazakh Women’s Voices: A Genealogy of  Women’s Literature and Thoughts from the 1970s to the present
+stories_heading: "How have Kazakh women across generations narrated their nomadic lives, identities, and concerns in their own words?"
+stories_intro: "These three stories are about women’s literature, podcast conversations, and my reflection on the project."
 objects_heading: "What is this heading for? "
 objects_intro: "Browse {count} objects featured in the stories."
 ---
@@ -12,6 +12,5 @@ objects_intro: "Browse {count} objects featured in the stories."
 
 
 
-## Welcome to the literature and sounds of 
-This digital exhibition explores women's perspectives on pastoralism
-Navigate through these curated stories to discover women's thoughts and their evolution.
+## Welcome to the digital exhibition
+This digital exhibition traces how Xinjiang Kazakh women have expressed their lives and ideas from the 1970s to today. It brings together women’s writings, conversations, and drawings. This project explores how generations of Kazakh women have written and imagined their lives across socialism, modernization, and globalization. By connecting literature and digital media, I hope to build a living archive that makes their voices heard across time and place.
