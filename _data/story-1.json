@@ -1,29 +1,56 @@
 [
   {
+    "_metadata": true,
+    "viewer_warnings": [
+      {
+        "step": 1,
+        "type": "viewer",
+        "message": "the object <code>new</code> was not found in <code>objects.csv</code>"
+      },
+      {
+        "step": 2,
+        "type": "viewer",
+        "message": "the object <code>nazipa</code> was not found in <code>objects.csv</code>"
+      },
+      {
+        "step": 3,
+        "type": "viewer",
+        "message": "the object <code>redyurt2</code> was not found in <code>objects.csv</code>"
+      },
+      {
+        "step": 4,
+        "type": "viewer",
+        "message": "the object <code>sara</code> was not found in <code>objects.csv</code>"
+      }
+    ]
+  },
+  {
     "step": 1,
-    "question": "How did Kazakh intellectuals in the early 20th century address women's questions?",
-    "answer": "Alash movement rose discourse on women's equality and education.",
-    "object": "newspaper1",
+    "question": "How ?",
+    "answer": "movement r.",
+    "object": "new",
     "x": "0.485",
     "y": "0.506",
     "zoom": "0.9",
     "layer1_button": "",
     "layer2_button": "",
-    "layer1_title": "Alash Movement",
-    "layer1_text": "<p>A group of kazakh intellectuals envisioned a new society and modern reform in the early 20th century. They created their own newspaper, Qazaq.</p>",
-    "layer2_title": "First Kazakh Newspaper of the Alash Movement, Qazaq",
-    "layer2_text": "<p>The content includes marriage cases, reports, stories, poems, criticism, debates on customs, and the first published kazakh woman's voice. Particularly, her concern about education and equality.</p>"
+    "viewer_warning": "the object <code>new</code> was not found in <code>objects.csv</code>",
+    "layer1_title": "Movement",
+    "layer1_text": "<p>A</p>",
+    "layer2_title": "First",
+    "layer2_text": "<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD<br />\nThe <br />\n=======<br />\nThe content</p>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<p>9a2fe17fd4c3add352a3409c58e8fc01e5ada974</p>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>"
   },
   {
     "step": 2,
-    "question": "Who had the rare but significant female voice in the early 20th-century kazakh steppe?",
-    "answer": "Kazakh female intellectual Nazipa Kulzhan Kelyny. She was the only female in the 1910s to write for Qazaq, the newspaper of the Alash movement. She advocated for women's education and equality. She also criticized kazakh marriage customs like early marriage, bride price, and polygamy, etc.",
+    "question": "Who?",
+    "answer": " female.",
     "object": "nazipa",
     "x": "0.519",
     "y": "0.563",
     "zoom": "1.9",
     "layer1_button": "",
     "layer2_button": "",
+    "viewer_warning": "the object <code>nazipa</code> was not found in <code>objects.csv</code>",
     "layer1_title": "",
     "layer1_text": "",
     "layer2_title": "",
@@ -31,31 +58,33 @@
   },
   {
     "step": 3,
-    "question": "What is the soviet emancipation project in the Kazakh steppe ",
-    "answer": "Soviet officials initiated the Red Yurt campaign and sent mobile Red Yurts to the kazakh villages.",
+    "question": "What  ",
+    "answer": "Sovi.",
     "object": "redyurt2",
     "x": "0.519",
     "y": "0.499",
     "zoom": "1.4",
     "layer1_button": "",
     "layer2_button": "",
+    "viewer_warning": "the object <code>redyurt2</code> was not found in <code>objects.csv</code>",
     "layer1_title": "",
-    "layer1_text": "<p>Campaign's origins and implementation in kazakh villages. Its functions such as improving literacy, spreading knowledge of women's rights, providing medical care, and teaching handicraft skills like sewing.</p>",
-    "layer2_title": "The first Kazakh Language Periodic about Women's Lives, Aiel Tengdygy Journal",
-    "layer2_text": "<p>This content included information about resistance to \"old\" marriage customs (bride price, polygamy, underage marriage) and coverage of the red yurt campaign. While serving as propaganda, the periodical provided a platform for kazakh women's voices.</p>"
+    "layer1_text": "<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD<br />\nCampaign<br />\n=======<br />\nCam</p>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<p>9a2fe17fd4c3add352a3409c58e8fc01e5ada974</p>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>",
+    "layer2_title": "The",
+    "layer2_text": "<h1>This c</h1>\n<h2>title: The first</h2>\n<p>This content </p>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<blockquote>\n<p>9a2fe17fd4c3add352a3409c58e8fc01e5ada974</p>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>\n</blockquote>"
   },
   {
     "step": 4,
-    "question": "What kind of role female editors played in the journal?",
-    "answer": "female editors acted as intermediate between propaganda and reality.",
+    "question": "What?",
+    "answer": "female .",
     "object": "sara",
     "x": "0.521",
     "y": "0.483",
     "zoom": "1.1",
     "layer1_button": "",
     "layer2_button": "",
-    "layer1_title": "Sara Esenqozhaqyzy, Chief Editor of Aiel Tengdygy Journal",
-    "layer1_text": "<p>Her works balanced women's everyday concerns with the demands of soviet propaganda, especially around political issues and marriage customs.</p>",
+    "viewer_warning": "the object <code>sara</code> was not found in <code>objects.csv</code>",
+    "layer1_title": "Sara",
+    "layer1_text": "<p>Her</p>",
     "layer2_title": "",
     "layer2_text": ""
   }

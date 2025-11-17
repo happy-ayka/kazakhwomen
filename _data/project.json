@@ -1,30 +1,21 @@
 [
   {
-    "project_title": "Your Exhibition Title",
-    "tagline": "A brief description of your exhibition",
-    "author": "Your Name or Institution",
-    "email": "contact@example.com",
-    "primary_color": "#2c3e50",
-    "secondary_color": "#8b4513",
-    "font_headings": "Playfair Display, serif",
-    "font_body": "Source Sans Pro, sans-serif",
-    "logo": "/assets/images/site/logo.png",
     "stories": [
       {
         "number": "1",
-        "title": "History of Kazakh Women's Emancipation in the Early 20th Century"
+        "title": "History "
       },
       {
         "number": "2",
-        "title": "Nazipa's work"
+        "title": " work"
       },
       {
         "number": "3",
-        "title": "Part one about the journal"
+        "title": "Part "
       },
       {
         "number": "4",
-        "title": "Red Yurt Campaign"
+        "title": "Red "
       }
     ]
   }

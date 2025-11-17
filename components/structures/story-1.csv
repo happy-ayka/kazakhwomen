@@ -1,7 +1,7 @@
 step,question,answer,object,x,y,zoom,layer1_button,layer1_file,layer2_button,layer2_file
-1,"How ?","move r.","new",0.485,0.506,0.9,"","story1/step1-layer1.md","","story1/step1-layer2.md"
-2,"Who?"," fem.","nazipa",0.519,0.563,1.9,"","","",""
-3,"What  ","So.","redyurt2",0.519,0.499,1.4,"","story1/step3-layer1.md","","story1/step3-layer2.md"
-4,"What?","fem .","sara",0.521,0.483,1.1,"","story1/step4-layer1.md","",""
+1,"How ?","movement r.","new",0.485,0.506,0.9,"","story1/step1-layer1.md","","story1/step1-layer2.md"
+2,"Who?"," female.","nazipa",0.519,0.563,1.9,"","story1/step2-layer1.md","","story1/step2-layer2.md"
+3,"What  ","Sovi.","redyurt2",0.519,0.499,1.4,"","story1/step3-layer1.md","","story1/step3-layer2.md"
+4,"What?","female .","sara",0.521,0.483,1.1,"","story1/step4-layer1.md","",""
 
 

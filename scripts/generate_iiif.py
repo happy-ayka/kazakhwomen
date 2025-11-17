@@ -16,7 +16,7 @@ def check_dependencies():
     """Check if required dependencies are installed"""
     try:
         from iiif.static import IIIFStatic
-        from PIL import Image
+        from PIL import Image, ImageOps
         return True
     except ImportError as e:
         print("❌ Missing required dependencies!")
@@ -59,7 +59,7 @@ def generate_iiif_for_image(image_path, output_dir, object_id, base_url):
         base_url: Base URL for the site
     """
     from iiif.static import IIIFStatic
-    from PIL import Image
+    from PIL import Image, ImageOps
     import tempfile
 
     # Preprocess PNG images with transparency (RGBA) to RGB
@@ -69,15 +69,31 @@ def generate_iiif_for_image(image_path, output_dir, object_id, base_url):
 
     try:
         img = Image.open(image_path)
+
+        # Apply EXIF orientation if present (thanks to Tara for reporting)
+        # This ensures portrait photos from phones/cameras display correctly
+        img_before_exif = img
+        img = ImageOps.exif_transpose(img)
+        if img is None:
+            # No EXIF orientation data, use original
+            img = img_before_exif
+
+        exif_applied = (img != img_before_exif)
+        if exif_applied:
+            print(f"  ↻ Applied EXIF orientation correction")
+
+        # Handle RGBA conversion
         if img.mode == 'RGBA':
             print(f"  ⚠️  Converting RGBA to RGB (removing transparency)")
             # Create RGB image with white background
             rgb_img = Image.new('RGB', img.size, (255, 255, 255))
             rgb_img.paste(img, mask=img.split()[3])  # Use alpha channel as mask
+            img = rgb_img
 
-            # Save to temporary file
+        # Save to temp file if we modified the image (EXIF correction or RGBA conversion)
+        if exif_applied or img_before_exif.mode == 'RGBA':
             temp_file = tempfile.NamedTemporaryFile(suffix='.jpg', delete=False)
-            rgb_img.save(temp_file.name, 'JPEG', quality=95)
+            img.save(temp_file.name, 'JPEG', quality=95)
             processed_image_path = Path(temp_file.name)
             temp_file.close()
     except Exception as e:
@@ -126,13 +142,21 @@ def copy_base_image(source_image_path, output_dir, object_id):
         output_dir: Output directory for IIIF tiles
         object_id: Object identifier
     """
-    from PIL import Image
+    from PIL import Image, ImageOps
 
     dest_path = output_dir / f"{object_id}.jpg"
 
     try:
         # Open and save as JPEG (in case source was PNG or other format)
         img = Image.open(source_image_path)
+
+        # Apply EXIF orientation if present
+        img_before_exif = img
+        img = ImageOps.exif_transpose(img)
+        if img is None:
+            # No EXIF orientation data, use original
+            img = img_before_exif
+
         if img.mode in ('RGBA', 'LA', 'P'):
             # Convert to RGB if necessary
             rgb_img = Image.new('RGB', img.size, (255, 255, 255))
