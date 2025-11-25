@@ -2,8 +2,8 @@
 # https://github.com/UCSB-AMPLab/telar
 
 # Site Settings
-title: Kazakh Women’s Voices, Genealogy of Women’s Literature and Thoughts since the 1970s.
-description: This project documents women's thoughts on migration, pasture ecology, steppe womenhood, tradition, and identity through their different ways of storytelling.
+title: Kazakh Women’s Voices
+description: This project documents women's thoughts on migration, pasture ecology, steppe womenhood, tradition, and identity.
 
 baseurl: /kazakhwomen
 url: https://happy-ayka.github.io
