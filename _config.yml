@@ -2,12 +2,12 @@
 # https://github.com/UCSB-AMPLab/telar
 
 # Site Settings
-title: History project
-description: This project tells ..
+title: Kazakh Women’s Voices
+description: This project documents women's thoughts on migration, pasture ecology, steppe womenhood, tradition, and identity.
 
 baseurl: /kazakhwomen
 url: https://happy-ayka.github.io
-author: aigerim
+author: Aigerim aigerim@ucsb.edu
 email: aigerim@ucsb.edu
 telar_theme: paisajes
 logo: ''
@@ -99,8 +99,8 @@ show_drafts: false
 
 # Telar Settings (version information)
 telar:
-  version: "0.4.3-beta"
-  release_date: "2025-11-15"
+  version: "0.5.0-beta"
+  release_date: "2025-11-18"
 
 # Plugins
 plugins:
