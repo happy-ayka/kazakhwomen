@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Kazakh Women’s Voices: A Genealogy of  Women’s Literature and Thoughts from the 1970s to the present
+title: Kazakh Women’s Voices A Genealogy of  Women’s Literature and Thoughts from the 1970s to the present
 stories_heading: "How have Kazakh women across generations narrated their nomadic lives, identities, and concerns in their own words?"
 stories_intro: "These three stories are about women’s literature, podcast conversations, and my reflection on the project."
 objects_heading: ""
