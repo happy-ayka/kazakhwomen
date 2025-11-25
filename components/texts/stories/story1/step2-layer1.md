@@ -1,5 +1,5 @@
 ---
-title: Sara 
+title: The Last Migration and a Sedentary Future 
 ---
 
 _The Distant Pastoral Song_ tells forty years of life on the Kazakh steppe in northern Xinjiang. The film follows the intertwined stories of two families from the 1980s to the 2010s. It begins with a winter migration and a deadly snowstorm, and a tragic accident happens to Khadisha’s husband, which increases tensions between the two families. Over generations, these families experienced loss and adaptation as they continued their annual nomadic migrations. The film’s four parts, including winter, spring, summer, and the new century, mirror the changes in herders’ lives throughout the social transformation. In the final scenes, the pastoral life gradually gives way to modernization: radios are replaced by cell phones, horses are replaced by motorcycles, and education, trade, and ecological policy reshape the steppe. At the end of the film, the aging herd releases its falcon into the sky, symbolically letting go of a way of life that is “flying back to freedom.” The families complete one last migration, which is not toward new pastures but into government-built settlements, marking the end of transhumance and the beginning of a sedentary future.
