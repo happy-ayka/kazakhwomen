@@ -1,4 +1,4 @@
 ---
-title: 
+title: Historical context
 ---
-
+Yerxesh Khurmanbek’s literary formation coincided with one of the dynamic periods in modern Chinese cultural history. The 1980s marked China’s intellectual thaw after the Cultural Revolution, when universities reopened, literary journals multiplied, and writers experimented with new forms of expression under the banner of humanism and seeking truth from facts. This decade also saw the rise of the “Ethnic Minority Literature” (少数民族文学) movement, through which non-Han writers began articulating ethnic subjectivities, ecological ethics, and local cosmologies within the national literary framework. For Kazakh writers in Xinjiang, this was a moment of cultural reawakening. Socialist modernization had transformed the steppe and redefined gender and labor. Yet the 1980s revival encouraged writers to revisit indigenous myths, oral traditions, and spiritual cosmologies as sources of cultural renewal. Emerging during the broader revival of ethnic minority literature after the Cultural Revolution, Yerxesh’s writing reflects the intellectual and cultural self-reflection of the 1980s generation.
