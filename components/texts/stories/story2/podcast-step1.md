@@ -2,4 +2,4 @@
 title: Podcast
 ---
 
-<iframe src="https://creators.spotify.com/pod/profile/dighjjjc/embed/episodes/E1-Kazakh-Women-Vioice-e2obeu2/a-abhakdg" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/e1-kazakh-women-vioice/id1720686189?i=1000669393319"></iframe>
